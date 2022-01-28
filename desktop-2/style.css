@@ -30,7 +30,6 @@ body{
   font-size: 25px;
   font-weight: 700;
   position: absolute;
-  top: 20vh;
   left: calc(50% - 100px);
   background: #76BFDA;
   padding: 10px;
@@ -59,7 +58,8 @@ form .user-details .input-box{
    height: 45px;
    margin: 35px 0;
    position: absolute;
-   left: calc(50% - 76px);
+   justify-content: center;
+   left: calc(100% / 2 - 67px);
 }
  form .button input{
    height: 100%;
