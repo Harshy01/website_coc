@@ -22,8 +22,12 @@ body{
   margin-bottom: 20px;
 }
 
-.space{
+.container .space{
   height: 35px;
+}
+
+.container .content form .Contact{
+  justify-self: center;
 }
 
 .container .title{
@@ -43,10 +47,12 @@ body{
   margin: 20px 0 12px 0;
 }
 form .user-details .input-box{
+  padding: 2vh;
   margin-bottom: 15px;
-  width: calc(100% / 2 - 20px);
+  width: calc(100% / 2 - 50px);
 }
 .user-details .input-box input{
+  padding: 2vh;
   height: 45px;
   width: 100%;
   outline: none;
@@ -59,11 +65,12 @@ form .user-details .input-box{
    margin: 35px 0;
    position: absolute;
    justify-content: center;
-   left: calc(100% / 2 - 67px);
+   left: calc(100% / 2 - 62px);
 }
  form .button input{
+   margin: 1vh;
    height: 100%;
-   width: 150%;
+   width: 100%;
    border-radius: 20px;
    border: none;
    color: black;
@@ -72,13 +79,15 @@ form .user-details .input-box{
    letter-spacing: 1px;
    background: #76BFDA;
  }
- @media(max-width: 584px){
+ @media(max-width: 787px){
  .container{
   max-width: 100%;
+  max-height: 100%;
 }
 form .user-details .input-box{
     margin-bottom: 15px;
-    width: 100%;
+    width: 100vw;
+    overflow-x: visible;
   }
   .content form .user-details{
     max-height: 300px;
