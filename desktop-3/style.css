@@ -1,29 +1,40 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat',sans-serif;
-  }
-  body{
+    margin:0;
+    padding:0;
+    font-family:'Montserrat' , sans-serif;
+}
+body{
+    background-image: url(https://s3-alpha-sig.figma.com/img/80cf/5cd7/424b92fd138982f1b54459bfbdaebca5?Expires=1643587200&Signature=Hjj-LKCJi-7OOVgNhiIV7~ukIdZFTeBughSKTXZl6mZccbk96xlbWqexGFZ7uUQb35erlEWfMiBaFDgrCWNz6MjgQ3WUBuak6c1U7WME1aTiGjExpweWZrBzalqKf8Ub449Uou2ebu~GY3aigc20bkbAxIEjTjEBJDnpeBXY44NWNIG2P5nUIk-YA-GXyKPBxg7zVDywGlQac-H81dv7sc4nTxjN82nkfVFMEr0lQq7UHUcC3ivAtYxX-4B2eykXIAtJIAUHt~yQqYwwpfl898oVbnCmC3gjiW4~q~dJ8~-B17~4qy9CSpvDngzhGTMd2eSvJ3XjqgNjKaDFp9r7ww__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    left: -2px;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.wrapper{
+    background:white;
+    width: 50%;
+    padding: auto;
+    margin: auto;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 2vw;
+    align-items: center;
+    justify-content: center;
+    margin: 18vw 25vw;
+    padding: 6vw 1vw;
+
+}
+
+.firstline{
     display: flex;
-    padding: 10px;
-    background-image: url(https://s3-alpha-sig.figma.com/img/80cf/5cd7/424b92fd138982f1b54459bfbdaebca5?Expires=1644192000&Signature=GAX1wMSBQPREC4MtFe6831bZlMeDYGYIQpN9XVaJ9d2Yqvd6xmHXWy9O7ANLbAhPrkq2jmQudmyLyCnNjDCqhKNgcWmfWtpA5QOYPrvCuNe~Ellqx0EmCsrevmn~GWT4-YvCboAw5PsRkcWxSyKOXvkajb3tTVV2fMkByaYnM~pxsqcztcEphGjYlZyE9ThCTlnIKDWxTCoYslfAUvKcQ1uh-PQ10-dVAwS19all-Tjwzgd~YmjqFWUib0typsOuQ2Yp~ds4S5fPRwhuAyX-mfp7HVfRupnqUkn0c8TxTyPZVWwevTt6IE8Jgk16vyHTvz2tJrkfaFfoAzhZNLYObA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
-  }
-  .wrapper {
-    max-width: 720px;
-    width: 100%;
-    display: flex;
-    background-color: white;
-    padding: 25px 30px;
-    border-radius: 15px;
-    margin-top: 30px;
-    justify-self: center;
-  }
-  .wrapper .name{
-    color: blue;
-  }
-   @media(max-width: 584px){
-   .wrapper{
-    max-width: 100%;
-  }
-  }
+    text-align: center;
+}
+
+
+@media(max-width: 584px){
+  .wrapper{
+   max-width: 100%;
+ }
+ }
